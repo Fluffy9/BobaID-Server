@@ -1,0 +1,11 @@
+{
+    "name": "node-red-project",
+    "description": "A Node-RED Project",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "ethers": "^5.6.8",
+        "node-red-contrib-cryptor": "0.0.2",
+        "node-red-contrib-uuid": "0.0.4"
+    }
+}
