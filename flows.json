@@ -57,7 +57,7 @@
         "type": "function",
         "z": "8fcbe7d9c628da77",
         "name": "Redirect",
-        "func": "let url = `${env.get(\"APP_URL\")}/${msg.req.params['provider']}?state=${msg.req.query['state']}&code=${msg.req.query['code']}`\nmsg.statusCode = 303;\nmsg.headers = {\n    \"Location\": url\n}\nreturn msg;",
+        "func": "let url = `${env.get(\"APP_URL\")}provider/${msg.req.params['provider']}?state=${msg.req.query['state']}&code=${msg.req.query['code']}`\nmsg.statusCode = 303;\nmsg.headers = {\n    \"Location\": url\n}\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
         "initialize": "",
