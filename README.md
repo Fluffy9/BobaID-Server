@@ -1,5 +1,5 @@
 # Boba ID Server
-![Server UI](./server/Capture3.PNG)
+![Server UI](./Capture3.PNG)
 
 ## How it Works
 The BobaID Server is based on Nodered for ease of management. If you're having difficulties, try using the inject/debug node to see what each node is outputting. [Learn more](https://www.youtube.com/watch?v=taqQ0T_ZJSM). This is easily hostable locally or on a decentralized cloud server, which is much better than using AWS lambda or something.
