@@ -31,5 +31,5 @@ npm install
 ```
 
 ```
-sudo docker run -d -p 1880:1880 --env-file .env -v /server:/data --name BobaIDServer nodered/node-redname
+sudo docker run -d -p 1880:1880 --env-file .env -v /server:/data --name BobaIDServer nodered/node-red
 ```
